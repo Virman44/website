@@ -6,7 +6,7 @@ include("auth.php");
 <html lang="ru">
     <head>
         <meta charset="utf-8" />
-        <title>Фотография</title>
+        <title>История создания фотоизображения</title>
         <link rel="stylesheet" href="css/styleindex1.css" />
 </head>
  <body background="images/fon.jpg">
@@ -16,23 +16,24 @@ include("auth.php");
   </div>
           <!--меню-->
           <div id="content-left"> 
-    <p> <a href="index2.php">Физические и химические основы процесса фотографирования.</a></p>
-    <p> <a href="index3.php">Макро- и микросъемка в научных исследованиях.</a></p>
-        <p> <a href="index4.php">Пути повышения качества изображения.</a></p>
-    <p> <a href="index5.php">Интересные факты о фотографии.</a></p>
-    <p> <a href="index6.php">Как сделать камеру-обскура в домашних условиях.</a></p>
-    <p> <a href="index7.php">Литература.</a></p>
+    <p align="center"> <a href="index2.php">Физические и химические основы процесса фотографирования</a></p>
+    <p align="center"> <a href="index3.php">Макро- и микросъемка в научных исследованиях</a></p>
+        <p align="center"> <a href="index4.php">Пути повышения качества изображения</a></p>
+    <p align="center"> <a href="index5.php">Интересные факты о фотографии</a></p>
+    <p align="center"> <a href="index6.php">Как сделать камеру-обскура в домашних условиях</a></p>
+    <p align="center"> <a href="index7.php">Литература</a></p>
   </div>
    <div class="clear"></div> <!--Запрет наплывания-->
      <div id="footer">
        <p align="center"><a href="index.php">На главную</a></p>
-<p id="pfooter"; align="center"><a href="logout.php">Выйти</a></p>
+<p align="center"><a href="logout.php">Выйти</a></p>
+<p id="pfooter"; align="center"><a href="index1-en.php">English version</a>
 
      </div>
   </div>
    <div id="wrapper">  <!--Оболочка-->
      <div id="header">  <!--Шапка-->
-     <h2 align="center">История создания фотоизображения.</h2>
+     <h2 align="center">История создания фотоизображения</h2>
         
      </div>
      <div id="content"> 

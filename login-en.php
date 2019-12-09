@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Авторизация</title>
+<title>Login</title>
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -25,23 +25,23 @@ and password='".md5($password)."'";
         if($rows==1){
      $_SESSION['username'] = $username;
             // Redirect user to index.php
-     header("Location: index.php");
+     header("Location: index-en.php");
          }else{
  echo "<div class='form'>
-<h3>Неверное имя пользователя или пароль. Пожалуйста, проверьте их и повторите попытку.</h3>
-<br/>Нажмите, чтобы <a href='login.php'>авторизоваться</a></div>";
+<h3>Username/password is incorrect.</h3>
+<br/>Click here to <a href='login-en.php'>Login</a></div>";
  }
     }else{
 ?>
 <div class="form">
-<h1>Вход на сайт</h1>
+<h1>Log In</h1>
 <form action="" method="post" name="login">
-<input type="text" name="username" placeholder="Имя пользователя" required />
-<input type="password" name="password" placeholder="Пароль" required />
-<input name="submit" type="submit" value="Войти" />
+<input type="text" name="username" placeholder="Username" required />
+<input type="password" name="password" placeholder="Password" required />
+<input name="submit" type="submit" value="Login" />
 </form>
-<p>Нет аккаунта? <a href='registration.php'>Создайте новый</a></p>
-<p><a href="login-en.php">English version</a></p>
+<p>Not registered yet? <a href='registration-en.php'>Register Here</a></p>
+<p><a href="login.php">Версия на русском</a></p>
 </div>
 <?php } ?>
 </body>
